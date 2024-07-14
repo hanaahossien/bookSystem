@@ -7,14 +7,17 @@
     "start": "node index.js",
     "start:watch": " node --watch index.js"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "errorhandler": "^1.5.1",
     "express": "^4.19.2",
     "joi": "^17.13.3",
     "mongoose": "^8.4.4"
-  }
+  },
+  "description": ""
 }
